@@ -5,7 +5,7 @@ function printDigitValue(n) {
     console.log(digit);
 
     for (let i = 0; i < newArr.length; i++) {
-        let multiply = Math.pow(10, newArr.length - i);
+        let multiply = Math.pow(10, newArr.length - (i + 1));
         console.log(newArr[i] * multiply);
     }
 }
